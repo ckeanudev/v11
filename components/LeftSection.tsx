@@ -51,31 +51,31 @@ const LeftSection = ({}: any) => {
         </div>
       </div>
 
-      <div className="flex items-center gap-5">
+      <div className="flex items-center gap-5 ">
         <a
           href={about.githubLink}
-          className="text-[#adb5bd]"
+          className="text-[#adb5bd] hover:text-[#E9ECEF] transition-colors"
           target="_blank"
           rel="noopener noreferrer">
           <FaGithub size={24} />
         </a>
         <a
           href={about.linkedInLink}
-          className="text-[#adb5bd]"
+          className="text-[#adb5bd] hover:text-[#E9ECEF] transition-colors"
           target="_blank"
           rel="noopener noreferrer">
           <FaLinkedin size={24} />
         </a>
         <a
           href={about.instagramLink}
-          className="text-[#adb5bd]"
+          className="text-[#adb5bd] hover:text-[#E9ECEF] transition-colors"
           target="_blank"
           rel="noopener noreferrer">
           <FaInstagram size={24} />
         </a>
         <a
           href={about.facebookLink}
-          className="text-[#adb5bd]"
+          className="text-[#adb5bd] hover:text-[#E9ECEF] transition-colors"
           target="_blank"
           rel="noopener noreferrer">
           <FaFacebook size={24} />

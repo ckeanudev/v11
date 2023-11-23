@@ -1,6 +1,6 @@
 export const about = {
   fullName: "Ckeanu Richer Locson",
-  position: "Front End Developer",
+  position: "Frontend Developer",
   smallDescription:
     "I focus on building beautiful and interactive interfaces with great experiences.",
   bigDescription1:
@@ -98,7 +98,7 @@ export const bigProjects = [
     title: `Apprabic: Mobile Application`,
     tools: [`Unity 3D`, `C#`, `Adobe Illustrator`],
     description: `I built a full-stack mobile application for our thesis in our Computer Science course. The mobile app helps children to learn Arabic letters and numbers, especially in writing, pronunciation, and arranging in order. I took this opportunity to learn Unity 3D since I wanted to build a video game ever since I started programming.`,
-    year: 2022,
+    year: 2023,
     purpose: `Thesis`,
   },
   {
@@ -112,7 +112,7 @@ export const bigProjects = [
     title: `Online Hotel Booking System`,
     tools: [`React`, `Node`, `Express`, `MySQL`, `Axios`, `Framer Motion`],
     description: `I built a full-stack web-based online booking system for a specific hotel here in Zamboanga City, Philippines. The system helps customers book or reserve a room online without going to the hotel. I took this opportunity to learn React, Node, Express, and MySQL to explore and improve my skills for my future career. I built this project to comply our Software Engineering project in my Computer Science course.`,
-    year: 2023,
+    year: 2022,
     purpose: `Software Engineering`,
   },
 ];
@@ -124,6 +124,7 @@ export const smallProjects = [
     tools: ["Astro", "React", "Tailwind CSS"],
     sourceUrl: `https://github.com/ckeanudev/frontendmentor-easybank`,
     liveUrl: `https://frontendmentor-easybank-six.vercel.app/`,
+    year: "2023",
   },
   {
     title: "Ecommerce Product",
@@ -131,6 +132,7 @@ export const smallProjects = [
     tools: ["React"],
     sourceUrl: `https://github.com/ckeanudev/frontend-mentor-ecommerce-product`,
     liveUrl: `https://frontend-mentor-ecommerce-product.vercel.app`,
+    year: "2023",
   },
   {
     title: "Results Summary Component",
@@ -138,6 +140,7 @@ export const smallProjects = [
     tools: ["HTML", "CSS"],
     sourceUrl: `https://github.com/ckeanudev/frontend-mentor-results-summary-component`,
     liveUrl: `https://frontend-mentor-results-summary-component-two.vercel.app`,
+    year: "2023",
   },
   {
     title: "Rock, Paper, Scissors Game",
@@ -145,6 +148,7 @@ export const smallProjects = [
     tools: ["React"],
     sourceUrl: `https://github.com/ckeanudev/frontend-mentor-rock-paper-scissors-game`,
     liveUrl: `https://ckeanu-frontend-mentor-game.netlify.app`,
+    year: "2022",
   },
   {
     title: "REST Countries API",
@@ -152,6 +156,7 @@ export const smallProjects = [
     tools: ["React", "API"],
     sourceUrl: `https://github.com/ckeanudev/dev-rest-country-api`,
     liveUrl: `https://ckeanu-country-api.netlify.app`,
+    year: "2022",
   },
   {
     title: "Job Listings w/ Filtering",
@@ -159,6 +164,7 @@ export const smallProjects = [
     tools: ["React"],
     sourceUrl: `https://github.com/ckeanudev/frontend-mentor-job-listing`,
     liveUrl: `https://ckeanu-job-listing.netlify.app`,
+    year: "2022",
   },
   {
     title: "Free Games Site",
@@ -166,6 +172,7 @@ export const smallProjects = [
     tools: ["React", "API"],
     sourceUrl: `https://github.com/ckeanudev/dev-free-games-list`,
     liveUrl: `https://ckeanu-free-games.netlify.app`,
+    year: "2022",
   },
   {
     title: "Small Meal App",
@@ -173,6 +180,7 @@ export const smallProjects = [
     tools: ["React", "API"],
     sourceUrl: `https://github.com/ckeanudev/dev-react-meal-app`,
     liveUrl: `https://ckeanu-meal-app.netlify.app`,
+    year: "2022",
   },
   {
     title: "COVID-19 Case Tracker App",
@@ -180,6 +188,7 @@ export const smallProjects = [
     tools: ["React", "API"],
     sourceUrl: `https://github.com/ckeanudev/dev-covid-19-tracker-system`,
     liveUrl: `https://ckeanu-covid-19-tracker-system.netlify.app`,
+    year: "2022",
   },
   {
     title: "Cryptocurrency Price Tracker App",
@@ -187,20 +196,16 @@ export const smallProjects = [
     tools: ["React", "API"],
     sourceUrl: `https://github.com/ckeanudev/dev-crypto-price-tracker`,
     liveUrl: `https://ckeanu-crypto-price-tracker.netlify.app`,
+    year: "2022",
   },
-  {
-    title: "To-Do List App",
-    imgSrc: `/images/Small Projects/sm5.png`,
-    tools: ["HTML", "CSS", "JS"],
-    sourceUrl: `https://github.com/ckeanudev/vanilla-javascript-to-do-list`,
-    liveUrl: `https://to-do-list-ckeanu.netlify.app`,
-  },
+
   {
     title: "Huddle Landing Page",
     imgSrc: `/images/Small Projects/sm4.png`,
     tools: ["HTML", "CSS"],
     sourceUrl: `https://github.com/ckeanudev/Huddle-landing-page`,
     liveUrl: `https://huddle-landing-page-ckeanu.netlify.app`,
+    year: "2022",
   },
   {
     title: "Project Tracking Intro Component",
@@ -208,6 +213,7 @@ export const smallProjects = [
     tools: ["HTML", "CSS"],
     sourceUrl: `https://github.com/ckeanudev/Project-tracking-intro-component`,
     liveUrl: `https://project-tracking-intro-component-ckeanu.netlify.app`,
+    year: "2022",
   },
 
   {
@@ -216,6 +222,7 @@ export const smallProjects = [
     tools: ["HTML", "CSS"],
     sourceUrl: `https://github.com/ckeanudev/NFT-preview-card-component`,
     liveUrl: `https://nft-preview-card-component-ckeanu.netlify.app`,
+    year: "2022",
   },
   {
     title: "Order Summary Card",
@@ -223,5 +230,14 @@ export const smallProjects = [
     tools: ["HTML", "CSS"],
     sourceUrl: `https://github.com/ckeanudev/Order-summary-card`,
     liveUrl: `https://order-summary-card-ckeanu.netlify.app`,
+    year: "2022",
+  },
+  {
+    title: "To-Do List App",
+    imgSrc: `/images/Small Projects/sm5.png`,
+    tools: ["HTML", "CSS", "JS"],
+    sourceUrl: `https://github.com/ckeanudev/vanilla-javascript-to-do-list`,
+    liveUrl: `https://to-do-list-ckeanu.netlify.app`,
+    year: "2021",
   },
 ];
