@@ -5,7 +5,7 @@ type Props = {};
 
 const AllProjectCard = ({ data }: any) => {
   return (
-    <div className="bg-[#001a2c] w-full px-0 md:px-3 pt-3 pb-4 flex flex-col md:flex-row gap-2 md:gap-0 border-b border-white/5">
+    <div className="w-full px-0 md:px-3 pt-3 pb-4 flex flex-col md:flex-row gap-2 md:gap-0 border-b border-white/5 md:hover:bg-[#495057]/5 transition-colors ">
       <div className="w-full md:w-[70px] flex items-start">
         {data.year && (
           <p className="text-xs text-left text-[#adb5bd] font-semibold bg-[#F8F9FA]/10 py-1 px-2.5 rounded-full mt-0 md:mt-0.5">
